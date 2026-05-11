@@ -6,13 +6,13 @@
 /*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 10:21:18 by andede-s          #+#    #+#             */
-/*   Updated: 2026/04/22 11:35:02 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/07 10:46:28 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
 
-int	ft_strlcpy(char *str, char *dest, int size)
+int	ft_strlcpy(char const *str, char const *dest, size_t size)
 {
 	int	i;
 	int	t;
