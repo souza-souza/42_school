@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include "libft.h"
 
-int	ft_strlcpy(char const *str, char const *dest, size_t size)
+int	ft_strlcpy(char const *str, char *dest, size_t size)
 {
 	int	i;
 	int	t;

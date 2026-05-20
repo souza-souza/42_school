@@ -1,18 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/20 13:56:29 by andede-s          #+#    #+#             */
-/*   Updated: 2026/04/22 11:39:59 by andede-s         ###   ########.fr       */
+/*   Created: 2026/05/11 15:16:22 by andede-s          #+#    #+#             */
+/*   Updated: 2026/05/11 15:38:13 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_is_digit(int num)
+#include "libft.h"
+
+int	ft_is_digit(int c)
 {
-	if (num >= 0 && num <= 9)
+	if (c >= 0 && c <= 9)
 		return (1);
 	else
 		return (0);

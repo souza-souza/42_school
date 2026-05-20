@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/23 11:16:31 by andede-s          #+#    #+#             */
-/*   Updated: 2026/04/23 11:46:32 by andede-s         ###   ########.fr       */
+/*   Created: 2026/05/11 15:16:22 by andede-s          #+#    #+#             */
+/*   Updated: 2026/05/11 15:38:13 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include "libft.h"
 void	*ft_bzero(void *str, int num)
 {
 	unsigned char *ptr = (unsigned char *)str;

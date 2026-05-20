@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include "libft.h"
-//#include <stdio.h>
+#include "libft.h"
 void	*ft_memmove(void *dest, const void *str, int num)
 {
 	unsigned char *d = (unsigned char *)dest;
