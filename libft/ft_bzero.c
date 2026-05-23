@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/11 15:16:22 by andede-s          #+#    #+#             */
-/*   Updated: 2026/05/11 15:38:13 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/23 16:11:58 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,15 +23,3 @@ void	*ft_bzero(void *str, int num)
 	}
 	return (str);
 }
-/*int	main()
-{
-	char str[20];
-
-	printf("O valor na memoria é: %s\n", str);
-
-	ft_bzero(str, sizeof(str));
-
-	printf("O valor na memoria agr é: %s", str);
-
-	return (0);
-}*/

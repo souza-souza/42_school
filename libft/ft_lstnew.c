@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstnew.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/05/23 16:29:02 by andede-s          #+#    #+#             */
+/*   Updated: 2026/05/23 16:29:13 by andede-s         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 t_list *ft_lstnew(void *content)
@@ -12,11 +24,3 @@ t_list *ft_lstnew(void *content)
     new->next = NULL;
     return(new);
 }
-/*int main()
-{
-    t_list *new;
-
-    new = ft_lstnew("Alo gente");
-    printf("O conteudo do no e: %s", (char *)new->content);
-    return (0);
-}*/
