@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 11:03:24 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/28 11:34:20 by andede-s         ###   ########.fr       */
@@ -30,10 +30,4 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	}
 	return (ptr);
 }
-/*int	main()
-{
-	char str[] = "eu gosto da bia";
 
-	printf("%s", ft_substr(str, 12, 5));
-	return (0);
-}*/

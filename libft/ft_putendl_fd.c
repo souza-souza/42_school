@@ -24,12 +24,4 @@ void ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
-/*int	main()
-{
-	char str[] = "que saudade da minha ex";
 
-	ft_putendl_fd(str, 1);
-	ft_putendl_fd(str, 2);
-
-	return (0);
-}*/

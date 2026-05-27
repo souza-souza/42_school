@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 13:40:29 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/28 13:53:24 by andede-s         ###   ########.fr       */
@@ -28,13 +28,3 @@ int	ft_memcmp(const void *str1, const void *str2, int n)
     }
     return (0);
 }
-/*int main()
-{
-    char str1[] = "fala rapazeadinha do yt";
-    char str2[] = "falae rapazeadinha do yt";
-    int res;
-
-    res = ft_memcmp(str1, str2, ft_strlen(str1));
-
-    printf("a diferenca entre as duas string e de: %d", res);
-}*/

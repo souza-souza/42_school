@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 10:49:00 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/23 11:10:35 by andede-s         ###   ########.fr       */
@@ -24,13 +24,3 @@ int	*ft_memset(void *str, int c, int num)
 	}
 	return (str);
 }
-/*int	main()
-{
-	char str[20];
-
-	ft_memset(str, '-', 2);
-	str[2] = '\0';
-
-	printf("O valor é: %s", str);
-	return (0);
-}*/

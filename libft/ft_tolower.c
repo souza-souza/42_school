@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 12:54:33 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/21 12:58:39 by andede-s         ###   ########.fr       */
@@ -18,8 +18,3 @@ char	ft_tolower(char c)
 		c += 32;
 	return (c);
 }
-/*int	main()
-{
-	printf("%c", ft_tolower('2'));
-	return (0);
-}*/

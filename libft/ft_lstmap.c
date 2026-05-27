@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/23 16:28:46 by andede-s          #+#    #+#             */
 /*   Updated: 2026/05/23 16:28:48 by andede-s         ###   ########.fr       */

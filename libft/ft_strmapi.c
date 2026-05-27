@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/11 14:09:58 by andede-s          #+#    #+#             */
 /*   Updated: 2026/05/11 14:34:46 by andede-s         ###   ########.fr       */
@@ -30,25 +30,4 @@ char *ft_strmapi(char const *s, char (*f)(unsigned int, char c))
 	res[i] = '\0';
 	return (res);
 }
-/*
-char	ft_strupcase(unsigned int i, char c)
-{
-	(void)i;
-	if (c >= 'a' && c <= 'z')		
-	{
-		c = c - 32;
-	}
-	return (c);
-}
-int main()
-{
-	char str[] = "Falae rapazeada";
-	char *resultado;
 
-	resultado = ft_strmapi(str, ft_strupcase);
-
-	printf("Original: %s\n", str);
-	printf("modificada: %s\n", resultado);
-	
-	return(0);
-}*/

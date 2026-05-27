@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 12:34:39 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/28 12:00:02 by andede-s         ###   ########.fr       */
@@ -21,9 +21,4 @@ size_t	ft_strlen(char const *str)
 		i++;
 	return (i);
 }
-/*int main()
-{
-    char str[] = "bia tu es chatinha";
-    printf("%d", ft_strlen(str));
-    return (0);
-}*/
+

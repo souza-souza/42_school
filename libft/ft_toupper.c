@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 12:34:22 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/21 12:51:08 by andede-s         ###   ########.fr       */
@@ -18,8 +18,3 @@ int	ft_toupper(char c)
 		c -= 32;
 	return (c);
 }
-/*int	main()
-{
-	printf("%c", ft_toupper('a'));
-	return (0);
-}*/

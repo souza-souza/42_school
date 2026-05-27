@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 13:56:36 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/28 14:12:43 by andede-s         ###   ########.fr       */
@@ -28,17 +28,4 @@ void	*ft_memchr(const void *str, int c, size_t n)
     }
     return (0);
 }
-/*int main()
-{
-    char str[] = "fala rapazeadinha do yt";
-    const char c = 'z';
-    char *res;
 
-    res = ft_memchr(str, c, ft_strlen(str));
-
-    if (res == NULL)
-        printf("caractere nao encontrado");
-    else
-        printf("caractere encontrado pela primeira vez na posicao: %ld", res - str);
-    return (0);
-}*/

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 10:21:18 by andede-s          #+#    #+#             */
 /*   Updated: 2026/05/07 10:46:28 by andede-s         ###   ########.fr       */
@@ -34,12 +34,4 @@ int	ft_strlcpy(char const *str, char *dest, size_t size)
 	}
 	return (t);
 }
-/*int	main()
-{
-	char str[] = "Alo maltinha";
-	char dest[3];
 
-	printf("%d", ft_strlcpy(str, dest, 3));
-	printf("%s",dest);
-	return (0);
-}*/

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 13:51:17 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/23 14:48:12 by andede-s         ###   ########.fr       */
@@ -37,13 +37,4 @@ void	*ft_memmove(void *dest, const void *str, int num)
 	}
 	return (dest);
 }
-/*int	main()
-{
-	char str[] = "Vou comer picanha na sexta";
-	char dest[30];
 
-	printf("A frase é: \n%s", dest);
-	ft_memmove(dest, str, ft_strlen(str) + 1);
-	printf("A frase é: %s", dest);
-	return (0);
-}*/

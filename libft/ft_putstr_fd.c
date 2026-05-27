@@ -23,13 +23,4 @@ void ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-/*int	main()
-{
-	char str[] = "teste definitivo";
 
-	ft_putstr_fd(str, 1);
-	write(1, "\n", 1);
-	ft_putstr_fd(str, 2);
-
-	return (0);
-}*/

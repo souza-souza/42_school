@@ -32,11 +32,4 @@ void ft_putnbr_fd(int n, int fd)
         ft_putchar_fd(nb + '0', fd);
     }
 }
-/*int	main()
-{
-	ft_putnbr_fd('1', 1);
-	write(1, "\n", 1);
-	ft_putnbr_fd('5', 2);
 
-	return (0);
-}*/

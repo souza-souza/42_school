@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 13:08:40 by andede-s          #+#    #+#             */
 /*   Updated: 2026/05/07 11:10:51 by andede-s         ###   ########.fr       */
@@ -95,20 +95,4 @@ char	**ft_split(char const *s, char c)
 	res[j] = NULL;
 	return (res);
 }
-/*int	main()
-{
-	char str [] = "alo malta da 42";
-	char **res;
-	int i;
 
-	i = 0;
-	printf("%d\n", count_word(str, ' '));
-	res = ft_split(str, ' ');
-
-	while(res[i])
-	{	
-		printf("%s\n", res[i]);
-		i++;
-	}
-	return (0);
-}*/

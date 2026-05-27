@@ -25,21 +25,4 @@ void ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-/*void    ft_strupcase(unsigned int i, char *c)
-{
-        (void)i;
-        if (*c >= 'a' && *c <= 'z')
-        {
-                *c = *c - 32;
-        }
-}
-int main()
-{
-        char str[] = "Falae rapazeada";
 
-        printf("Original: %s\n", str);
-	ft_striteri(str, ft_strupcase);
-        printf("modificada: %s\n", str);
-
-        return(0);
-}*/

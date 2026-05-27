@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 13:09:13 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/29 13:08:03 by andede-s         ###   ########.fr       */
@@ -31,12 +31,4 @@ char	*ft_strtrim(char const *s1, char const *set)
 	}
 	return(ft_substr(s1, start, (fim - start)));
 }
-/*int	main()
-{
-	char str[] = "!!*!Eu quero minha mae&!!";
-	char c[] = "!*&^%$#";
-	char *trim = ft_strtrim(str, c);
 
-	printf("A string ficou assim: %s", trim);
-	return (0);
-}*/

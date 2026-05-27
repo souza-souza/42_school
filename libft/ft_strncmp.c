@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 08:36:32 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/22 09:07:00 by andede-s         ###   ########.fr       */
@@ -25,11 +25,4 @@ int	ft_strncmp(char *str, char *stg, int num)
 	}
 	return (0);
 }
-/*int	main()
-{
-	char str[] = "eu gosto de queijo";
-	char stg[] = "eu nao gosto de queijo";
 
-	printf("%d", ft_strncmp(str, stg, 4));
-	return (0);
-}*/

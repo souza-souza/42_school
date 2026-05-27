@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andede-s <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 13:27:03 by andede-s          #+#    #+#             */
 /*   Updated: 2026/04/22 11:30:38 by andede-s         ###   ########.fr       */
@@ -30,9 +30,4 @@ char	*ft_strrchr(char *str, char c)
 		return (0);
 	return (&str[t]);
 }
-/*int	main()
-{
-	char str[] = "Falae gente";
-	printf("%s", ft_strrchr(str, '\0'));
-	return (0);
-}*/
+
