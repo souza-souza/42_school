@@ -6,11 +6,12 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 11:21:42 by andede-s          #+#    #+#             */
-/*   Updated: 2026/04/21 12:33:21 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/28 16:49:42 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 int	ft_strlcat(char *dest, char *str, int size)
 {
 	int	i;
@@ -35,4 +36,3 @@ int	ft_strlcat(char *dest, char *str, int size)
 	}
 	return (len_str + len_dest);
 }
-

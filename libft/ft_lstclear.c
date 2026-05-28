@@ -6,23 +6,22 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/23 16:28:09 by andede-s          #+#    #+#             */
-/*   Updated: 2026/05/23 16:28:14 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/28 13:47:49 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_lstclear(t_list **lst, void (*del)(void*))
+void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
-    t_list  *temp;
+	t_list	*temp;
 
-    if (!lst || !del)
-        return;
-    
-    while(*lst)
-    {
-        temp = (*lst)->next;
-        ft_lstdelone(temp, del);
-        *lst = temp;
-    }
+	if (!lst || !del)
+		return ;
+	while (*lst)
+	{
+		temp = (*lst)->next;
+		ft_lstdelone(temp, del);
+		*lst = temp;
+	}
 }

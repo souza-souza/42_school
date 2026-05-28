@@ -6,7 +6,7 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 09:07:25 by andede-s          #+#    #+#             */
-/*   Updated: 2026/04/22 11:33:46 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/28 16:52:48 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,4 +33,3 @@ char	*ft_strnstr(char *str, char *stg, int num)
 	}
 	return (0);
 }
-

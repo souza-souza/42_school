@@ -6,7 +6,7 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 10:21:18 by andede-s          #+#    #+#             */
-/*   Updated: 2026/05/07 10:46:28 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/28 16:50:37 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,4 +34,3 @@ int	ft_strlcpy(char const *str, char *dest, size_t size)
 	}
 	return (t);
 }
-

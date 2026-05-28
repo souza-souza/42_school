@@ -6,21 +6,20 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/11 15:16:22 by andede-s          #+#    #+#             */
-/*   Updated: 2026/05/11 15:38:13 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/28 16:04:30 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;
+
 	i = 0;
-	
 	while (s[i])
 	{
 		write(fd, &s[i], 1);
 		i++;
 	}
 }
-

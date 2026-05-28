@@ -6,11 +6,12 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 13:27:03 by andede-s          #+#    #+#             */
-/*   Updated: 2026/04/22 11:30:38 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/28 16:53:25 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 char	*ft_strrchr(char *str, char c)
 {
 	int	i;
@@ -30,4 +31,3 @@ char	*ft_strrchr(char *str, char c)
 		return (0);
 	return (&str[t]);
 }
-
