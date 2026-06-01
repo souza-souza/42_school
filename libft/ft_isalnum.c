@@ -6,13 +6,13 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/23 16:13:28 by andede-s          #+#    #+#             */
-/*   Updated: 2026/05/28 13:15:14 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/30 16:22:05 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum(char c)
+int	ft_isalnum(int c)
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122)
 		|| (c >= 48 && c <= 57))

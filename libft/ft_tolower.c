@@ -6,13 +6,13 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 12:54:33 by andede-s          #+#    #+#             */
-/*   Updated: 2026/04/21 12:58:39 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/30 16:21:21 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	ft_tolower(char c)
+int	ft_tolower(int c)
 {
 	if (c >= 65 && c <= 90)
 		c += 32;

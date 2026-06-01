@@ -6,7 +6,7 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/23 16:28:09 by andede-s          #+#    #+#             */
-/*   Updated: 2026/05/28 13:47:49 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/30 17:48:00 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 	while (*lst)
 	{
 		temp = (*lst)->next;
-		ft_lstdelone(temp, del);
+		ft_lstdelone(*lst, del);
 		*lst = temp;
 	}
 }

@@ -6,16 +6,16 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 10:21:18 by andede-s          #+#    #+#             */
-/*   Updated: 2026/05/28 16:50:37 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/30 16:19:03 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlcpy(char const *str, char *dest, size_t size)
+size_t	ft_strlcpy(char *dest, char const *str, size_t size)
 {
-	int	i;
-	int	t;
+	size_t	i;
+	size_t	t;
 
 	i = 0;
 	t = 0;

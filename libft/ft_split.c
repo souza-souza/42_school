@@ -6,7 +6,7 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 13:08:40 by andede-s          #+#    #+#             */
-/*   Updated: 2026/05/28 16:31:49 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/06/01 13:28:47 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	count_word(char const *str, char c)
 char	*word_dup(char const *s, int start, int end)
 {
 	char	*word;
-	int	i;
+	int		i;
 
 	word = malloc((end - start + 1) * sizeof(char));
 	if (!word)
@@ -48,9 +48,9 @@ char	*word_dup(char const *s, int start, int end)
 char	**ft_split(char const *s, char c)
 {
 	char	**res;
-	int	i;
-	int	j;
-	int	start;
+	int		i;
+	int		j;
+	int		start;
 
 	if (!s)
 		return (NULL);

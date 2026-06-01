@@ -6,7 +6,7 @@
 /*   By: andede-s <andede-s@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/11 15:16:22 by andede-s          #+#    #+#             */
-/*   Updated: 2026/05/23 16:11:40 by andede-s         ###   ########.fr       */
+/*   Updated: 2026/05/30 18:00:15 by andede-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,10 @@ int	ft_atoi(const char *str)
 	{
 		i++;
 	}
-	while (str[i] == '+' || str[i] == '-')
+	if (str[i] == '+' || str[i] == '-')
 	{
 		if (str[i] == '-')
-			sinal = -sinal;
+			sinal = -1;
 		i++;
 	}
 	while (str[i] >= '0' && str[i] <= '9')
